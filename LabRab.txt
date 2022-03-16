@@ -1,0 +1,65 @@
+#include <stdio.h>
+#include <conio.h>
+#include <math.h>
+
+
+
+int main()
+{
+float x, s, f, x_nach, x_kon, delta_x, eps, temp;
+int n;
+
+
+
+printf("\nЛабораторная работа №3");
+printf("\nВариант №4");
+printf("\nПИ.1-21-1");
+printf("\nРогов Даниил\n");
+
+
+
+printf("\nВвод исходных данных:\n");
+printf("\nx_nach=");
+scanf("%f", &x_nach);
+printf("\nx_kon=");
+scanf("%f", &x_kon);
+printf("\ndelta_x=");
+scanf("%f", &delta_x);
+printf("\neps=");
+scanf("%f", &eps);
+
+
+
+printf("\nДля x=%5.3f до %5.3f с шагом %5.3f и точностью %5.3f\n", x_nach, x_kon, delta_x, eps);
+
+
+
+printf("\n x n s f");
+printf("\n--------------------------------------");
+
+
+
+x = x_nach;
+
+
+
+do
+{
+temp = (x-1.0)/(x+1.0);
+s = temp;
+n = 1;
+f = log(x);
+while (fabs(temp) > eps)
+{
+temp *= ((x-1.0)*(x-1.0))/((2.0*n+1.0)*(x+1.0)*(x+1.0));
+s += temp;
+n++;
+}
+s=2.0*s;
+printf("\n%5.3f %d %0.6f %0.6f", x, n, s, f);
+x += delta_x;
+}
+while (x <= x_kon);
+printf("\n--------------------------------------");
+return 0;
+}
