@@ -62,4 +62,4 @@ x += delta_x;
 while (x <= x_kon);
 printf("\n--------------------------------------");
 return 0;
-}
+}//end prog
