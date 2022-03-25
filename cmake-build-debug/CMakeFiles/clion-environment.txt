@@ -1,0 +1,4 @@
+ToolSet: 17.0 (local)@D:\Programs\Visual Studio
+Options: 
+
+Options:-DCMAKE_MAKE_PROGRAM=D:/Programs/JetBrains CLion/bin/ninja/win/ninja.exe

@@ -1,0 +1,10 @@
+"D:\Programs\JetBrains CLion\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/Programs/JetBrains CLion/bin/ninja/win/ninja.exe" -G Ninja "D:\Code\JB CLion Projects\origin"
+-- The C compiler identification is MSVC 19.30.30705.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: D:/Programs/Visual Studio/VC/Tools/MSVC/14.30.30705/bin/Hostx86/x86/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Code/JB CLion Projects/origin/cmake-build-debug

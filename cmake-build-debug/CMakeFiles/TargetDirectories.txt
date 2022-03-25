@@ -1,0 +1,3 @@
+D:/Code/JB CLion Projects/origin/cmake-build-debug/CMakeFiles/origin.dir
+D:/Code/JB CLion Projects/origin/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Code/JB CLion Projects/origin/cmake-build-debug/CMakeFiles/rebuild_cache.dir
